@@ -178,10 +178,7 @@ with open(os.path.join(
 class IntCodeMixin(object):
     def adapt_code(self, area_code):
         if isinstance(area_code, Number):
-            if area_code > 100:
-                return '%3d' % area_code
-
-            return '%2d' % area_code
+            return '%02d' % area_code
         return super(IntCodeMixin, self).adapt_code(area_code)
 
 

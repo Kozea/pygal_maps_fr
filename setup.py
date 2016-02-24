@@ -24,7 +24,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pygal_maps_fr",
-    version='1.0.0',
+    version='1.1.0',
     description="French maps for pygal",
     author="Kozea",
     url="http://pygal.org/",
